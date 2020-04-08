@@ -57,7 +57,7 @@ class Connect_ssh(object):
 
     def current_host(ssh, password):
         """Current host it's"""
-        command = 'ssh 10.100.43.2'
+        command = 'needit'
         print('connection ' + command)
         ssh.send('terminal length 0\n')
         time.sleep(1)
